@@ -1,0 +1,27 @@
+{
+  "name": "react-webpack-typescript-starter",
+  "version": "1.0.0",
+  "description": "Simple starter project configured for react, typescript, and webpack.",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --entry ./src/index.tsx --output-filename ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "open-browser-webpack-plugin": "0.0.5",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
